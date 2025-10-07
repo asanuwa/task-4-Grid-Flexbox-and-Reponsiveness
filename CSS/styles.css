@@ -1,0 +1,197 @@
+body{
+      background-image: url('../image/vecteezy_different-bread-web-banner-with-copy-space_26466698.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-around;
+  background-color: antiquewhite;
+  color:red;
+  padding: 10px;
+  list-style: none;
+}
+
+
+.brand{
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+  position: relative;
+  top: 200px;
+  left: 30px;
+}
+
+button{
+  background-color: #B87C4C;
+  font-size: 1rem;
+  border-radius: 20px;
+  border: 2px solid black;
+  padding: 20px 40px;
+  text-align: center;
+  cursor: pointer;
+  font-style: italic;
+  position: relative;
+  top: 200px;
+  left: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.contactpage{
+     display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  top: 70px;
+  right: 100px;
+  }
+
+
+ .contactpage form input{
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+    width: 500px;
+
+  }
+
+
+   .contactpage form button{
+    position: relative;
+    top: 10px;
+    left: 6px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #B87C4C;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .contactpage h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    position: relative;
+    left: 350px;
+    bottom: 100px;
+  }
+
+footer{
+  text-align: center;
+  font-size: 1rem;
+  position: relative;
+  top: 300px;
+}
+
+.orderpage{
+  text-align: center;
+}
+
+
+img{
+  width: 500px;
+  height: 500px;
+}
+
+.aboutpage{
+  text-align: center;
+  position: relative;
+  top: 70px;
+  right: 100px;
+}
+
+/* Form Container */
+.form-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  top: 70px;
+  right: 100px;
+}
+
+.form-container h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    position: relative;
+    left: 400px;
+    bottom: 100px;
+}
+
+
+.form-container button{
+     position: relative;
+    top: 10px;
+    left: 6px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #B87C4C;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+ 
+}
+
+/* Fieldset and Legend for Grouping */
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+    width: 500px;
+}
+
+legend {
+    font-weight: bold;
+    color: #007bff; /* Primary color */
+    padding: 0 10px;
+    margin-left: -5px; /* Adjust legend positioning */
+}
+
+/* Form Elements Styling */
+label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 15px;
+    font-weight: 500;
+    color: #555;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="tel"],
+input[type="number"],
+select, 
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box; /* Important for padding/border inside width */
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Focus State */
+input:focus, select:focus, textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25); /* Subtle blue glow on focus */
+    outline: none; /* Remove default browser outline */
+}
+
+
+@media (max-width: 650px) {
+    .form-container {
+        padding: 20px 15px;
+        margin: 0;
+        box-shadow: none; /* Less formal on small devices */
+    }
+}
+

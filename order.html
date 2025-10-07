@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bylisful Baking And Cuisine Order Form</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+     
+         <nav >
+               <p>Follow us on: facebook | instagram | twitter</p>
+          <ul class="navigation">
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="order.html">Place Order</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav> 
+
+
+
+    <div class="form-container">
+        <h1>Product Order Form</h1>
+        <form action="#" method="POST">
+            
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="customer_name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="customer_email" required>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="customer_phone">
+            </fieldset>
+
+            <fieldset>
+                <legend>Order Details</legend>
+                
+                <label for="product">Select Product:</label>
+                <select id="product" name="product_selection" required>
+                    <option value="" disabled selected>-- Choose a Product --</option>
+                    <option value="Product_A">Appetizers</option>
+                    <option value="Product_B">Main Course</option>
+                    <option value="Service_C">Beverages</option>
+                    <option value="Service_D">Cakes</option>
+                </select>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+
+                <label for="notes">Special Notes / Instructions:</label>
+                <textarea id="notes" name="special_notes" rows="4"></textarea>
+            </fieldset>
+
+            <button type="submit" class="submit-btn">Place Order</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
+   
